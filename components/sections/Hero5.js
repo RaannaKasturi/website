@@ -5,22 +5,25 @@ const Hero5 = () => {
         <>
             <div className="banner">
                 <div className="row align-items-end">
-                    <div className="col-lg-6 pt-100">
+                    <div className="col-lg-6">
                         <span className="text-sm-bold color-gray-600 wow animate__animated animate__fadeInUp">Hello Everyone!</span>
-                        <h1 className="color-gray-50 mt-20 mb-20 wow animate__animated animate__fadeInUp">
-                            I’m
-                            <Typewriter
+                        <h3 className="color-gray-50 mt-20 mb-20 wow animate__animated animate__fadeInUp">
+                            I’m</h3>
+                            <h1 className="color-gray-50 mt-20 mb-20 wow animate__animated animate__fadeInUp">Nayan Kasturi</h1>
+                            <h3 className="color-gray-50 mt-20 mb-20 wow animate__animated animate__fadeInUp">
+                            aka Raanna</h3>
+                            <h1><Typewriter
                                 options={{
                                     wrapperClassName: "typewrite color-linear",
-                                    strings: ["Brian Clark", "Designer", "Creator"],
+                                    strings: ["WordPress Expert", "Graphic Designer", "Server Admin", "Content Writer", "Bioinformatician", "Tech Enthusiast"],
                                     autoStart: true,
                                     loop: true
-                                }}
-                            />
-                        </h1>
+                                }}                               
+                            /></h1>
                         <div className="row">
                             <div className="col-lg-9">
-                                <p className="text-base color-gray-600 wow animate__animated animate__fadeInUp">I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                                <br />
+                                <p className="text-base color-gray-600 wow animate__animated animate__fadeInUp">A Curious and Overthinking Tech-Enthusiast from Mumbai, India with rich experience in WordPress Design and Web Server Deployment. Fascinated by the Advancements in Scientific Fields, especially in AI & ML as well as Healthcare.</p>
                             </div>
                         </div>
                         <div className="box-subscriber mt-40 mb-50 wow animate__animated animate__fadeInUp">
